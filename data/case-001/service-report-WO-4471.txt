@@ -1,0 +1,20 @@
+--- Page 1 ---
+FIELD SERVICE REPORT
+Work order: WO-4471
+Customer: Acme Energy
+Site: Pad 12
+Equipment: Triplex pump, serial PX-2209
+Technician: Jean Morin
+Date of service: 2026-10-21
+
+Work performed:
+Replaced packing on all three plungers.
+Mechanical seal found worn during inspection. Seal replaced after on-site approval from the customer's operations lead.
+Pump tested under load and returned to service.
+
+--- Page 2 ---
+Labor summary
+On-site labor: 8.0 h (6.5 h scheduled + 1.5 h additional seal replacement)
+Travel: 2.0 h (listed separately, not included in on-site labor)
+
+Technician signature: J. Morin

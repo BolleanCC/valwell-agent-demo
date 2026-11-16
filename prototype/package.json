@@ -1,0 +1,31 @@
+{
+  "name": "valwell-agent-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/main.ts",
+    "typecheck": "tsc --noEmit",
+    "agent": "tsx src/agent.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BolleanCC/valwell-agent-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/BolleanCC/valwell-agent-demo/issues"
+  },
+  "homepage": "https://github.com/BolleanCC/valwell-agent-demo#readme",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.8.0"
+  }
+}

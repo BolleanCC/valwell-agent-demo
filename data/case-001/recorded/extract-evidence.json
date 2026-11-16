@@ -1,0 +1,23 @@
+{
+  "laborHours": [
+    {
+      "hours": 8.0,
+      "date": "2026-10-21",
+      "kind": "onsite",
+      "note": "6.5 h scheduled + 1.5 h additional seal replacement",
+      "source": { "docId": "service-report", "page": 2, "quote": "On-site labor: 8.0 h (6.5 h scheduled + 1.5 h additional seal replacement)" }
+    },
+    {
+      "hours": 2.0,
+      "date": "2026-10-21",
+      "kind": "travel",
+      "source": { "docId": "service-report", "page": 2, "quote": "Travel: 2.0 h (listed separately, not included in on-site labor)" }
+    }
+  ],
+  "customerConfirmation": {
+    "status": "confirmed",
+    "approvedHours": 1.5,
+    "source": { "docId": "email", "quote": "Acme approves the extra 1.5 hours for the seal replacement Jean mentioned on site." }
+  },
+  "ambiguities": []
+}
