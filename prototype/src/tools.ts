@@ -61,3 +61,19 @@ export function reconcileInvoice(invoiceId: string) {
 
     return checkInvoice(invoice, workOrder, contractRate);
 }
+
+export function executeTool(name: string, invoiceId: string) {
+    switch (name) {
+        case "get_invoice":
+            return getInvoice(invoiceId);
+
+        case "reconcile_invoice":
+            return reconcileInvoice(invoiceId);
+
+        default:
+            return {
+                status: "UNKNOWN_TOOL",
+                reason: `Tool ${name} is not supported.`,
+            };
+    }
+}

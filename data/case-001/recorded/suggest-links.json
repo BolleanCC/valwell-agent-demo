@@ -1,0 +1,27 @@
+{
+  "candidates": [
+    {
+      "workOrderId": "WO-4471",
+      "confidence": "high",
+      "signals": [
+        {
+          "field": "site",
+          "value": "Pad 12"
+        },
+        {
+          "field": "equipment",
+          "value": "triplex pump"
+        },
+        {
+          "field": "technician",
+          "value": "Jean"
+        }
+      ]
+    },
+    {
+      "workOrderId": "WO-4468",
+      "confidence": "low",
+      "signals": []
+    }
+  ]
+}
